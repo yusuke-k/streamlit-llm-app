@@ -22,7 +22,6 @@ elif selected_item == "教育の専門家":
     input_text = st.text_input(label="教育の専門家への問いかけを入力してください。", placeholder="例: 教育について教えてください。")
 
 
-st.divider()
-
 if st.button(label="回答を生成"):
+    st.divider()
     st.write(f"回答: {input_text}")
